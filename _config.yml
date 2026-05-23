@@ -1,1 +1,40 @@
+# Site settings
+title: Your Name
+description: Writing and Works - A portfolio of ideas and creative practice
+baseurl: "" # Leave empty if using username.github.io
+url: "https://yourusername.github.io" # Change to your GitHub Pages URL
 
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  works:
+    output: true
+    permalink: /works/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "work"
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
