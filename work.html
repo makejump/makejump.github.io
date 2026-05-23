@@ -1,1 +1,25 @@
-
+---
+layout: default
+---
+<article class="work">
+    <header class="work-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.year %}
+        <span class="work-year">{{ page.year }}</span>
+        {% endif %}
+    </header>
+    
+    {% if page.featured_image %}
+    <figure class="work-featured-image">
+        <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+    </figure>
+    {% endif %}
+    
+    <div class="work-content">
+        {{ content }}
+    </div>
+    
+    <footer class="work-footer">
+        <a href="/works.html">← Back to all works</a>
+    </footer>
+</article>
