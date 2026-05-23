@@ -27,7 +27,7 @@ title: Home
 </section>
 
 <section class="recent-works">
-  <h2>Selected Works</h2>
+  <h2>Selected Work</h2>
   <div class="grid">
     {% for work in site.works limit:6 %}
       <a href="{{ work.url }}" class="grid-item">
@@ -38,5 +38,5 @@ title: Home
       </a>
     {% endfor %}
   </div>
-  <a href="/works.html" class="view-all">View all works →</a>
+  <a href="/work.html" class="view-all">View all works →</a>
 </section>
