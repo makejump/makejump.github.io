@@ -17,8 +17,6 @@ Talk about your creative process...
 
 ## Side-by-side Images
 
-You can show multiple images side by side using this HTML:
-
 <div class="image-grid grid-2">
   <figure>
     <img src="/assets/images/detail1.jpg" alt="Detail 1">
