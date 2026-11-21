@@ -337,24 +337,24 @@ section h2 {
     .container {
         padding: 0 1rem;
     }
-    
+
     .site-nav ul {
         gap: 1rem;
     }
-    
+
     .home-intro h1 {
         font-size: 2rem;
     }
-    
+
     .grid {
         grid-template-columns: 1fr;
     }
-    
+
     .image-grid.grid-2,
     .image-grid.grid-3 {
         grid-template-columns: 1fr;
     }
-    
+
     .post-header h1,
     .work-header h1 {
         font-size: 2rem;
