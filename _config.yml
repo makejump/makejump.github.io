@@ -2,7 +2,7 @@
 title: Your Name
 description: Writing and Works - A portfolio of ideas and creative practice
 baseurl: "" # Leave empty if using username.github.io
-url: "https://yourusername.github.io" # Change to your GitHub Pages URL
+url: "https://makejump.github.io" # Change to your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
